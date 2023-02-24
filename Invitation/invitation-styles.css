@@ -94,7 +94,7 @@ nav a:hover {
   
     nav {
       flex-direction: column;
-     margin-top: 90px;
+     margin-top: 53px;
     }
   
     nav a {
@@ -103,7 +103,7 @@ nav a:hover {
   
     }
  .invitation{
-    margin-top: 250px;
+    margin-top: 200px;
  } 
   
 }
