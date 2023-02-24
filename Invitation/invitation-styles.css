@@ -93,13 +93,13 @@ nav a:hover {
     }
   
     nav {
-      display: flex;
       flex-direction: column;
      margin-top: 90px;
     }
   
     nav a {
       padding: 10px;
+      background-color: #fcccd4;
   
     }
  .invitation{
