@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Courgette&family=PT+Serif&family=Quantico&family=Sacramento&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
   }
 body {
-  font-size: 22px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   font-family: "Quantico", Serif, sans-serif;
@@ -44,45 +45,49 @@ nav a {
 nav a:hover {
   color: blue;
   text-align: center;
-  transform: scale(1.9);
+  transform: scale(1.5);
 }
-.invitation #Deng {
-  color: #00515c;
+
+h1 a{
+  display: block;
   text-align: center;
   text-decoration: none;
-  padding: 35px;
-  transition: transform 0.5s;
-  margin-top: 90px;
+  color: #218380;
 }
-.invitation #Deng:hover {
-  color: purple;
+h1 a:hover{
+  color: blue;
+}
+
+#TempInvitation{
+  margin-top: 120px;
+  transition: transform 0.5s;
+
+}
+#TempInvitation:hover{
   text-align: center;
   transform: scale(1.3);
 }
-.invitation #Dkh {
-  color: #00515c;
-  text-align: center;
-  text-decoration: none;
-  padding: 35px;
-  margin-top: -70px;
+#Deng{
   transition: transform 0.5s;
+
 }
-.invitation #Dkh:hover {
-  color: purple;
+#Deng:hover{
   text-align: center;
   transform: scale(1.3);
-  border: 100px;
 }
-.invitation #Peng {
-  color: red;
-  text-align: center;
-  text-decoration: none;
-  padding: 35px;
+#Peng{
   transition: transform 0.5s;
-  margin-top: -70px;
+
 }
-.invitation #Peng:hover {
-  color: purple;
+#Peng:hover{
+  text-align: center;
+  transform: scale(1.3);
+}
+#Dkh{
+  transition: transform 0.5s;
+
+}
+#Dkh:hover{
   text-align: center;
   transform: scale(1.3);
 }
