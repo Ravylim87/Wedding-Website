@@ -87,15 +87,23 @@ nav a:hover {
   transform: scale(1.3);
 }
 
-@media screen and (max-width: 900px) {
-    nav{
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  
+    nav {
+      display: flex;
       flex-direction: column;
+     margin-top: 90px;
     }
+  
     nav a {
-        display: block;
-        padding: 15px;
-      }
-    h1,h2{
-        font-size: 5px;
+      padding: 10px;
+  
     }
+ .invitation{
+    margin-top: 250px;
+ } 
+  
 }
