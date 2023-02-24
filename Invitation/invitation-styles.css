@@ -52,7 +52,7 @@ h1 a{
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #218380;
+  color: green;
 }
 h1 a:hover{
   color: blue;
@@ -94,12 +94,12 @@ h1 a:hover{
 
 @media screen and (max-width: 600px) {
     body {
-      font-size: 16px;
+      font-size: 13px;
     }
   
     nav {
       flex-direction: column;
-     margin-top: 53px;
+     margin-top: 60px;
     }
   
     nav a {
@@ -107,8 +107,8 @@ h1 a:hover{
       background-color: #fcccd4;
   
     }
- .invitation{
-    margin-top: 200px;
+ #TempInvitation{
+    margin-top: 230px;
  } 
   
 }
