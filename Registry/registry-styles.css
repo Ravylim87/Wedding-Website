@@ -1,0 +1,10 @@
+body{
+    background-image: url("5231528.webp");
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: auto;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,84 @@
+body {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-family: "Quantico", Serif, sans-serif;
+
+  background-image: url("Vfn6C0z.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: auto;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+header {
+  font-size: 25px;
+  font-weight: 900;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  /*  extra  */
+  height: 90px;
+  background-color: #fcccd4;
+  margin-bottom: 0%;
+}
+nav a {
+  color: #00515c;
+  text-align: center;
+  text-decoration: none;
+  padding: 35px;
+  transition: transform 0.5s;
+}
+nav a:hover {
+  color: blue;
+  text-align: center;
+  transform: scale(1.9);
+}
+.invitation #Deng {
+  color: #00515c;
+  text-align: center;
+  text-decoration: none;
+  padding: 35px;
+  transition: transform 0.5s;
+  margin-top: 90px;
+}
+.invitation #Deng:hover {
+  color: purple;
+  text-align: center;
+  transform: scale(1.3);
+}
+.invitation #Dkh {
+  color: #00515c;
+  text-align: center;
+  text-decoration: none;
+  padding: 35px;
+  margin-top: -70px;
+  transition: transform 0.5s;
+}
+.invitation #Dkh:hover {
+  color: purple;
+  text-align: center;
+  transform: scale(1.3);
+  border: 100px;
+}
+.invitation #Peng {
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  padding: 35px;
+  transition: transform 0.5s;
+  margin-top: -70px;
+}
+.invitation #Peng:hover {
+  color: purple;
+  text-align: center;
+  transform: scale(1.3);
+}

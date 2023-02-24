@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Courgette&family=PT+Serif&family=Quantico&family=Sacramento&display=swap');
+body {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: "Quantico",Serif, sans-serif;
+
+    background-image: url("MwzCFo.gif");
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: auto;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+  }
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+img{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+header{
+  font-size: 25px;
+  font-weight: 900;
+  
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+
+    position: fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    /*  extra  */
+    height: 90px;
+   background-color: #fcccd4;
+    margin-bottom: 0%;
+  }
+nav a {
+    color: #00515c;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    transition: transform 0.5s;
+  }
+nav a:hover {
+    color: blue;
+    text-align: center;
+    transform: scale(1.9);
+  }
+.title{
+  margin-top: 110px;
+  text-align: center;
+  font-family: "sacramento", serif, sans-serif;
+  font-size: 60pt;
+  color: #6a0080;
+}
+.sub_title{
+  text-align: center;
+  margin-top: -60px;
+  color: #8f0f67;
+}
+.date{
+  text-align: center;
+  font-family: "sacramento", serif, sans-serif;
+}
+.day{
+  text-align: center;
+}
+#time{
+  text-align: center;
+  font-family: "sacramento", serif, sans-serif;
+  font-weight: 900;
+  margin-top: -10px;
+}
+#addTitle{
+  font-family: "Quantico",Serif, sans-serif;
+  text-align: center;
+}
+.address a{
+  display: block;
+  font-family: "Quantico",Serif, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.5s;
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
+.address a:hover {
+  color: blue;
+  text-align: center;
+  transform: scale(1.1);
+}
